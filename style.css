@@ -5,11 +5,11 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   color: #291720;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 body {
-  background-color: #0B3954;
+  background-color: #003A5E;
 }
 
 .container {
@@ -32,23 +32,23 @@ h1 {
 }
 
 .box {
-  width: calc(100% / 10 - 10px);
+  width: calc(100% / 10 - 20px);
   aspect-ratio: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #BFD7EA;
-  margin: 5px;
+  background-color: #1E91D6;
+  margin: 10px;
 }
 
 .fizz {
-  background-color: #FF6663;
+  background-color: #8FC93A;
 }
 
 .buzz {
-  background-color: #E0FF4F;
+  background-color: #6F73D2;
 }
 
 .fizz-buzz {
-  background-color: #FF3CC7;
+  background-color: #E4CC37;
 }

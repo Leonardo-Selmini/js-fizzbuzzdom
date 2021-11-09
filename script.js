@@ -5,7 +5,7 @@ for (let i = 1; i <= 100; i++) {
   console.log(i);
   // itero text
   if (i % 15 == 0) {
-    text += `<div class="box fizz-buzz">BuzzFizz</div>`;
+    text += `<div class="box fizz-buzz">DOM</div>`;
   } else if (i % 5 == 0) {
     text += `<div class="box buzz">Buzz</div>`;
   } else if (i % 3 == 0) {
@@ -15,4 +15,4 @@ for (let i = 1; i <= 100; i++) {
   }
 }
 // seleziono il mio container e ci printo dentro i box
-document.getElementById('box-container').innerHTML = text
+document.getElementById('box-container').innerHTML = text;
